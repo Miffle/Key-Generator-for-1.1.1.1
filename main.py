@@ -1,7 +1,9 @@
 import random
 import time
 import httpx
+import os
 
+os.system('CLS')
 headers = {
     "CF-Client-Version": "a-6.15-2405",
     "Host": "api.cloudflareclient.com",
@@ -13,6 +15,7 @@ f = open("keys.txt", "a+")
 x = 0
 quantity = 0
 print("Collected and posted by me)\n"
+      "I've been here :)\n"
       "telegram - https://t.me/FckingJester\n"
       "Lolz - https://lolz.guru/fuckingjester\n")
 def zapis():
