@@ -82,5 +82,6 @@ while x<1000:
             quantity +=1
             print(f"{quantity} | ({license}) - {referral_count} GB")
             zapis()
+        print("-----------------------------------------------------------")
         time.sleep(120)
         x += 1
